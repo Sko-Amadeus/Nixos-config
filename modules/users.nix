@@ -6,7 +6,7 @@
     uid = 1000;
     shell = pkgs.nushell;
     group = "sko";
-    extraGroups = [ "networkmanager" "docker" "wheel" "disk" "video" "render" "storage" ];
+    extraGroups = [ "networkmanager" "dialout" "docker" "wheel" "disk" "video" "render" "storage" ];
   };
   users.groups.sko = {
     gid = 980;

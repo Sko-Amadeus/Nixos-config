@@ -22,6 +22,7 @@
     ripgrep-all
     just
     dust
+    esptool
     mold
     dua
     rustc
