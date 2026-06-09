@@ -94,6 +94,7 @@
     bazaar
     bluetui
     tdf
+    plasticity
     inetutils
     zssh
     fast-ssh
