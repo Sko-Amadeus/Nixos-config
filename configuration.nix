@@ -28,6 +28,7 @@
     ./modules/hyprland.nix
     ./modules/ssh.nix
     ./modules/sops.nix
+
   ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];

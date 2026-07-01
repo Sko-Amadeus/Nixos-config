@@ -32,7 +32,7 @@
     rustup
     r2modman
     deno
-
+    vimPlugins.LazyVim
     # Shells
     fish
     nushell
