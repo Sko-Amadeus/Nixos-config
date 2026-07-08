@@ -108,8 +108,9 @@
     exiftool
     pdfcrack
     contact
+    python314Packages.nomadnet
     python314Packages.lxmf
-        # =========================
+    # =========================
     # Optional / Advanced
     # =========================
     espanso-wayland
