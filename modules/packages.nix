@@ -108,6 +108,7 @@
     exiftool
     pdfcrack
     contact
+    python314Packages.lxmf
         # =========================
     # Optional / Advanced
     # =========================
