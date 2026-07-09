@@ -109,7 +109,7 @@
     pdfcrack
     contact
     python314Packages.nomadnet
-    python314Packages.lxmf
+    #python313Packages.lxmf
     # =========================
     # Optional / Advanced
     # =========================

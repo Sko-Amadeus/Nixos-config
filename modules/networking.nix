@@ -4,7 +4,7 @@
     hostName = "nixos";
     networkmanager = {
       enable = true;
-      dns = "dnsmasq";
+     dns = "dnsmasq";
     };
   };
 
