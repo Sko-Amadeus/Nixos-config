@@ -5,6 +5,7 @@
       reticulum = {
         enable_transport = true;
         share_instance = true;
+        rpc_key = "647391e2def98ad3a744507879ec9cb8a3e2cf5f219b9bf327f5cfb8d456c081";
         instance_name = "default";
         shared_instance_type = "tcp";
         shared_instance_port = 37428;
@@ -46,6 +47,7 @@
     rnsd = {
       settings = {
         reticulum = {
+          rpc_key ="647391e2def98ad3a744507879ec9cb8a3e2cf5f219b9bf327f5cfb8d456c081";
           is_shared_instance = true;
           shared_instance_type = "tcp";
           shared_instance_port = 37428;
