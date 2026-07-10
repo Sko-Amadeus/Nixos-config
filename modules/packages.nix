@@ -81,7 +81,6 @@
     ncspot
     librespot
     youtube-tui
-
     playerctl
 
     # =========================
@@ -110,6 +109,7 @@
     contact
     python314Packages.nomadnet
     #python313Packages.lxmf
+     rns
     # =========================
     # Optional / Advanced
     # =========================
