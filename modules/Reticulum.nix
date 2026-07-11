@@ -17,7 +17,14 @@
           enabled = true;
           devices = "enp6s0";                        # only use your real NIC
           ignored_devices = "docker0, veth*, br-*";   # belt-and-suspenders
+          internet = {
+         type = "TCPClientInterface";
+         enabled = true;
+         target_host = "reticulum.network";
+         target_port = 4242;
+          };
         };
+
       };
     };
     # No transportIdentityFile/identities set: rnsd will generate its own
