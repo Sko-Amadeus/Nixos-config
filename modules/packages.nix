@@ -107,9 +107,7 @@
     exiftool
     pdfcrack
     contact
-    python314Packages.nomadnet
-    python313Packages.lxmf
-     rns
+    rns
     # =========================
     # Optional / Advanced
     # =========================
