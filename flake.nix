@@ -39,8 +39,6 @@
         spicetify-nix.nixosModules.default
         nix-citizen.nixosModules.default
         sops-nix.nixosModules.sops
-        "${nixpkgs}/nixos/modules/services/networking/rnsd.nix"
-        "${nixpkgs}/nixos/modules/services/networking/lxmd.nix"
       ];
     };
   };
