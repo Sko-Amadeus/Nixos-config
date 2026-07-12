@@ -1,8 +1,6 @@
 { pkgs, inputs, ... }:
 
 {
-      programs.nix-ld.enable = true;
-
   environment.systemPackages = with pkgs; [
 
     # =========================
@@ -34,6 +32,7 @@
     rustup
     r2modman
     deno
+    vimPlugins.LazyVim
     # Shells
     fish
     nushell
@@ -81,6 +80,7 @@
     ncspot
     librespot
     youtube-tui
+
     playerctl
 
     # =========================
@@ -107,8 +107,7 @@
     exiftool
     pdfcrack
     contact
-    rns
-    # =========================
+        # =========================
     # Optional / Advanced
     # =========================
     espanso-wayland
